@@ -8,4 +8,4 @@ RUN pecl install xdebug-2.6.0 && \
 ENV DISPLAY_ERRORS=“On”
 
 ONBUILD COPY php.ini /usr/local/etc/php/php.ini
-ONBLUID COPY index.php /var/www/html/
+ONBUILD COPY index.php /var/www/html/
